@@ -3,7 +3,7 @@ A Jekyll-based static fileserver for Github-hosted Reveal.js slidedecks
 
 Jekyll-Reveal.js integration based on documentation from @jpmoral's [blog post](http://jpmoral.com/blogging/2015/07/29/hosting-revealjs-slides-on-jekyll.html) building on @luugiathuy's [presentation](http://luugiathuy.com/slides/jekyll-create-slides-with-revealjs/#/).
 
-Sample slidedeck created mostly for testing purposes:  (http://mjvo.github.io/slide-server/sample.html) [Source](https://github.com/mjvo/slide-server/blob/gh-pages/_slidedecks/sample.md)
+Sample slidedeck created mostly for testing purposes:  (https://mjvo.github.io/reveal-jekyll-slideserver/sample.html) <a href='blob/gh-pages/\_slidedecks/sample.md'>Slide Source</a>
 
 Slidedecks use standard
 
