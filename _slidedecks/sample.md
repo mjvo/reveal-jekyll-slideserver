@@ -12,7 +12,7 @@ transition: convex
 
 This is a barebones implementation of [Jekyll](http://jekyllrb.com/) integrated with [reveal.js](https://github.com/hakimel/reveal.js/) enabling the serving of slidedecks from [Github](https://github.com).
 
-Source and important caveats/notes available [here](https://github.com/mjvo/slide-server)
+Source and important caveats/notes available [here](https://github.com/mjvo/reveal-jekyll-slideserver)
 </section>
 
 <section data-markdown>
@@ -25,13 +25,13 @@ Source and important caveats/notes available [here](https://github.com/mjvo/slid
 </section>
 
 <section>
-    <h3>Code with Fragment Highlighting (HTML)</h3>
+    <h3>Code</h3>
+    <h4>with Fragment Highlighting (HTML)</h4>
     <pre><code data-noescape>
       var x;
       x = x++;
     <mark class="fragment" data-fragment-index="1">  console.log(x);</mark>
     </code></pre>
-    <p class="fragment" data-fragment-index="1">Appear at the same time</p>
 </section>
 
 <section data-markdown>
@@ -79,4 +79,8 @@ data3|data4
 * Item 2 <!-- .element: class="fragment" -->
 
     </script>
+</section>
+
+<section>
+<iframe width="100%" height="800" data-src="//jsfiddle.net/1wuk7540/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 </section>
