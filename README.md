@@ -1,4 +1,4 @@
-# slide-server
+# reveal-jekyll-slideserver
 A Jekyll-based static fileserver for Github-hosted Reveal.js slidedecks
 
 Jekyll-Reveal.js integration based on documentation from @jpmoral's [blog post](http://jpmoral.com/blogging/2015/07/29/hosting-revealjs-slides-on-jekyll.html) building on @luugiathuy's [presentation](http://luugiathuy.com/slides/jekyll-create-slides-with-revealjs/#/).
