@@ -1,0 +1,4 @@
+
+.line { display: block; }
+.line:hover { background: rgba(255, 255, 255, 0.3); }
+.line.focus { background: rgba(255, 255, 255, 0.3); }

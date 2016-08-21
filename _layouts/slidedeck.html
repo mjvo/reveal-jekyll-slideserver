@@ -33,7 +33,8 @@
     {% endif %}
 
     <!-- Code syntax highlighting -->
-    <link rel="stylesheet" href="{{ "/reveal.js/lib/css/zenburn.css" | prepend: site.baseurl }}"/>
+    <link rel="stylesheet" href="{{ "/reveal.js/plugin/highlight.js/css/agate.css" | prepend: site.baseurl }}"/>
+    <link rel="stylesheet" href="{{ "/reveal.js/plugin/reveal-code-focus/css/reveal-code-focus.css" | prepend: site.baseurl }}"/>
 
     <!-- Printing and PDF exports -->
     <script>
@@ -69,6 +70,7 @@
       Reveal.initialize({
         controls: true,
         progress: true,
+        overview: false,
         history: true,
         center: true,
         {%if page.transition %}
@@ -82,7 +84,9 @@
           { src: '{{ "/reveal.js/lib/js/classList.js" | prepend: site.baseurl }}', condition: function() { return !document.body.classList; } },
           { src: '{{ "/reveal.js/plugin/markdown/marked.js" | prepend: site.baseurl }}', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
           { src: '{{ "/reveal.js/plugin/markdown/markdown.js" | prepend: site.baseurl }}', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-          { src: '{{ "/reveal.js/plugin/highlight/highlight.js" | prepend: site.baseurl }}', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+          //{ src: '{{ "/reveal.js/plugin/highlight/highlight.js" | prepend: site.baseurl }}', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: '{{ "/reveal.js/plugin/highlight.js/highlight.pack.js" | prepend: site.baseurl }}' },
+          { src: '{{ "/reveal.js/plugin/reveal-code-focus/reveal-code-focus.js" | prepend: site.baseurl }}', async: true, callback: function() { RevealCodeFocus(); } },
           { src: '{{ "/reveal.js/plugin/zoom-js/zoom.js" | prepend: site.baseurl }}', async: true },
           { src: '{{ "/reveal.js/plugin/notes/notes.js" | prepend: site.baseurl }}', async: true },
           { src: '{{ "/reveal.js/plugin/menu/menu.js" | prepend: site.baseurl }}' },
