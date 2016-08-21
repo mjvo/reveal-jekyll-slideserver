@@ -82,7 +82,5 @@ data3|data4
 </section>
 
 <section>
-<!-- <iframe width="100%" height="500" src="//jsfiddle.net/mjvo/qay021qb/15/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe> -->
-<pre class="_cssdeck_embed" data-pane="js" data-height="500" data-user="mjvo" data-href="mjvo-p5js" data-version="0"></pre><script async src="http://cssdeck.com/assets/js/embed.js"></script>
-
+<pre class="_cssdeck_embed" data-pane="js" data-user="mjvo" data-href="mjvo-p5js" data-version="0" data-height="500"></pre><script async src="http://cssdeck.com/assets/js/embed.js"></script>
 </section>
