@@ -1,3 +1,5 @@
+# *** This project is no longer maintained.  I have switched to [Hugo](https://gohugo.io/) as a static site generator and [Remark JS](https://remarkjs.com) as a mechanism for delivering slidedecks via Markdown. ***
+
 # reveal-jekyll-slideserver
 A Jekyll-based static fileserver for Github-hosted Reveal.js slidedecks
 
